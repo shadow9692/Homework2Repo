@@ -16,3 +16,9 @@ git commit -m "commit 0"
 EDIT Readme.md
 git add .
 git commit -m "commit 1"
+
+2:
+git log --graph
+EDIT Readme.md
+git add .
+git commit -m "commit 2"
