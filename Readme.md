@@ -5,7 +5,14 @@ Brandon Boylan-Peck
 
 0:
 git init
+copy NUL Readme.md
+EDIT Readme.md
 git status
 git add Readme.md
 git status
-git commit
+git commit -m "commit 0"
+
+1:
+EDIT Readme.md
+git add .
+git commit -m "commit 1"
