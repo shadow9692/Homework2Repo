@@ -31,3 +31,8 @@ git checkout -b bug-fix-experimental
 EDIT Readme.md
 git add .
 git commit -m "commit 7"
+
+8:
+EDIT Readme.md
+git add .
+git commit -m "commit 8"
