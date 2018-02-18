@@ -18,3 +18,8 @@ git log
 EDIT Readme.md
 git add .
 git commit -m "commit 3"
+
+4:
+EDIT Readme.md
+git add .
+git commit -m "commit 4"
