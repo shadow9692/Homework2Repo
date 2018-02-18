@@ -5,10 +5,23 @@ Brandon Boylan-Peck
 
 0:
 git init
+copy NUL Readme.md
+EDIT Readme.md
 git status
 git add Readme.md
 git status
 git commit -m "commit 0"
+
+1:
+EDIT Readme.md
+git add .
+git commit -m "commit 1"
+
+2:
+git log --graph
+EDIT Readme.md
+git add .
+git commit -m "commit 2"
 
 3:
 git log
@@ -23,3 +36,9 @@ git commit -m "commit 3"
 EDIT Readme.md
 git add .
 git commit -m "commit 4"
+
+5:
+git merge master
+EDIT Readme.md (fixed merge conflict)
+git add .
+git commit -m "commit 5, Merge conflict"
