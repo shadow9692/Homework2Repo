@@ -8,4 +8,13 @@ git init
 git status
 git add Readme.md
 git status
-git commit
+git commit -m "commit 0"
+
+3:
+git log
+git checkout b542a
+git checkout -b bug-fix
+git log
+EDIT Readme.md
+git add .
+git commit -m "commit 3"
