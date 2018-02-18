@@ -22,3 +22,10 @@ git log --graph
 EDIT Readme.md
 git add .
 git commit -m "commit 2"
+
+10:
+git checkout master
+git log
+EDIT Readme.md
+git add .
+git commit -m "commit 10"
