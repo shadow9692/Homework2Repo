@@ -23,3 +23,11 @@ git commit -m "commit 3"
 EDIT Readme.md
 git add .
 git commit -m "commit 4"
+
+7:
+git log --graph
+git checkout 9c8a9
+git checkout -b bug-fix-experimental
+EDIT Readme.md
+git add .
+git commit -m "commit 7"
