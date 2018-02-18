@@ -93,3 +93,18 @@ git merge bug-fix
 EDIT Readme.md
 git add .
 git commit -m "commit 13, finally merged back to master."
+
+14:
+git log --graph
+git remote add origin https://github.com/shadow9692/Homework2Repo.git
+git push -u origin master
+git checkout bug-fix
+git push -u origin bug-fix
+git checkout bug-fix-experimental
+git put -u origin bug-fix-experimental
+git checkout master
+ADD IMAGE INTO FOLDER
+git status
+EDIT Readme.md
+git add .
+git commit -m "commit 14, the final commit"
